@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Primeiro-Angular';
+
+  public oculto = false
+
+  public mudarExibicao() {
+
+    this.oculto = !this.oculto
+
+  }
 }
