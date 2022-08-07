@@ -12,6 +12,6 @@ export class Component1Component implements OnInit {
   ngOnInit(): void {
   }
 
-  nome_pai = "Matheus"
+  lista_nomes =["Matheus", "Pedro", " ", "Adriana"]
 
 }

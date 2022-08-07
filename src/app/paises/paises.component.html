@@ -1,0 +1,2 @@
+<app-aux-paises *ngFor="let pais of paises" [pais]="pais" (votado)="onVoted($event)"></app-aux-paises>
+<p>Você votou em: {{votado}}</p>
