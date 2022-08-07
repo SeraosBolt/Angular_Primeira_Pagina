@@ -7,6 +7,10 @@ import { OlaMundoComponent } from './ola-mundo/ola-mundo.component';
 import { ContadorComponent } from './contador/contador.component';
 import { ListaLivrosComponent } from './lista-livros/lista-livros.component';
 import { CaixaTextoComponent } from './caixa-texto/caixa-texto.component';
+import { Componente1Component } from './componente1/componente1.component';
+import { Component2Component } from './component2/component2.component';
+import { Component1Component } from './component1/component1.component';
+import { FilhoComponent } from './filho/filho.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { CaixaTextoComponent } from './caixa-texto/caixa-texto.component';
     OlaMundoComponent,
     ContadorComponent,
     ListaLivrosComponent,
-    CaixaTextoComponent
+    CaixaTextoComponent,
+    Componente1Component,
+    Component2Component,
+    Component1Component,
+    FilhoComponent
   ],
   imports: [
     BrowserModule,
